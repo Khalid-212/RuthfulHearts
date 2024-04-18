@@ -33,7 +33,6 @@ export default function CountdownTimer() {
       }
     };
 
-    // Simulate loading for 1 second
     const loadingTimeout = setTimeout(() => {
       setLoading(false);
     }, 1000);
